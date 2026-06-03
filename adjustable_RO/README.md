@@ -46,7 +46,7 @@ That is exactly the original constraint — confirming it is the **adjustable ro
 
 ## Full formulation (ARC with affine recourse)
 
-$$
+```math
 \begin{aligned}
 \max_{x_1^{(1)},\,x_2^{(1)},\,u_1,\,u_2,\,v_1,\,v_2} \quad & z = x_1^{(1)} + x_2^{(1)} \\[4pt]
 \text{s.t.} \quad
@@ -55,7 +55,7 @@ $$
 & x_1^{(1)} - 2x_2^{(1)} \le 0 \qquad (\,x_1^{(1)} \le 2x_2^{(1)}\,) \\[4pt]
 & x_1^{(1)},\, x_2^{(1)},\, u_1,\, u_2,\, v_1,\, v_2 \ge 0
 \end{aligned}
-$$
+```
 
 where the wait-and-see variable follows the affine rule
 
